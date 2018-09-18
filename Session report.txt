@@ -1,0 +1,1 @@
+Aim :  explore User Account View on FE
