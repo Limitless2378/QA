@@ -1,2 +1,40 @@
-Aim :  explore User Account View on FE
-Upload all java tasks
+P&G Session report.
+
+Main aim: check user account view  for bugs
+Test Environment: Windows 10 , Google chrome 46.0.2490.80
+- Ok;
+      *    - Bug;
+      ?   - Question.
+
+
+Notifications:
+ *   -  form with dubl-scroll;   https://ibb.co/jSv9Wp
+ *   -  when we perform manipulations to reduce and compress windows in the browser,it does not compress correctly (horizontally); https://ibb.co/gYFnHU , https://ibb.co/mxXnj9
+ ? -  Can not be filled ?;
+My favourites:
++ - the correct transition from “Favorite photos” to “Following photographers” , without some bugs;
++ - in chapter “Favorite photos” we can do correctly filter  “photo - city” ;
++ - in chapter “all photographers” we can choose all of our tagged photos that belong to the right photographer; 
+* - when we open the marked photo and click the button in the browers back, we throw it on another section “Following photographers”;
+* - in the “following photographers” section there are no photos and the photographers from Vancouver;  https://ibb.co/hiqJrp
+Profile page:
+*- incorrect display of selected photos, only part of the profile is displayed in the profile;  https://ibb.co/nCr2HU
+*- non-working “keywords” filter in a profile , we can click only “Clear filter” but cannot filled;
+*-dubl-scroll in a form “contact photographer”;  https://ibb.co/iZdSj9
++- correct display and traffic on the site when click “Visit gallery”;
+Edit profile:
++-working functional “status”;
++-working form for changing email;
+*-dubl-scroll in a form “change email”; https://ibb.co/f9PpxU
+*-dubl-scroll in a form “change password”; https://ibb.co/h2bmcU
+*-wrong localization of the lines in “change password” the line “Current password” should be first;
+The rest of the functionality is displayed and working correctly.
+Manage Gallery:
+*-Manipulation with the photo,when we choose some of them is overlaps by the window with cookie; https://ibb.co/i8GmcU
++-added a new photo is work;
++-Sort gallery” By also works fine;
+*-do not press spaces in the field “Assign keywords”;
+*-do not press spaces in the field “Destination”;
+
+
+Resolution: many errors and minor bugs, in chapter “Manage Gallery”  work without defects  is only “add photo” , chapter “Edit profile page” all function is working good ,chapter “My favourites” is also working fine , but the  “Following photographers” subsection has some defect with the numbers and photos with the cities, functional in the chapter “Profile page” work good.
